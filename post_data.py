@@ -37,9 +37,9 @@ post_data = [
     }, ]
 
 # Your Code Start from here
-# for data in post_data:
-#     title = data.get('title').strip().replace(' ','-')
-#     data.update({'slug': title})
+for data in post_data:
+    title = data.get('title').strip().replace(' ','-')
+    data.update({'slug': title})
 # Your code ends here
 
 print(post_data[2])
